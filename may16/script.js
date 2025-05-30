@@ -34,7 +34,8 @@ output = "hello";
 output = true;
 output = null;
 output = 1756998877n;
-// A BigInt is created by appending n to the end of an integer or by calling the BigInt() function
+// A BigInt is created by appending n to the end of an integer
+//  or by calling the BigInt() function
 output = Symbol("id");
 
 console.log(output, typeof output);
