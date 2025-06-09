@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css">
+    <title>My Page</title>
+    <style>
+        .box{
+            background-size: cover;
+        }
+        .head{
+            height: 700px;
+            width: 800px; 
+            border: 2px solid black;
+            background-image: url(https://bioscomputacion.com.ar/img/Public/1161/75844-producto-ld0006166713-0006166744-00061667.jpg);
+            margin-left: 300px;
+            border-radius: 20px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            gap: 21.5px;
+            margin-left: 300px;
+            margin-top: 20px;
+        }
+        .one{
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-image: url(main.jpeg);
+        }
+        .second{
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-image: url(one.jpeg);
+        }
+        .third{
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-image: url(three.jpeg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="head" id="cont"></div>
+        <div class="container">
+            <div class="one" onclick="hello()"></div> 
+            <div class="second" onclick="hii()"></div>
+            <div class="third" onclick="byy()"></div> 
+        </div> 
+    </div>
+    <script src="task.js"></script>
+</body>
+</html>
