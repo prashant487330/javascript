@@ -22,7 +22,8 @@ let hello=()=>{
     let ptag=document.querySelector("#text")
 
     ptag.style.color="green"  
-    ptag.style.fontSize="50px"  
+    ptag.style.fontSize="50px"
+    ptag.style.backgroundColor="orange"  
     // ptag.innerHTML="<h1>HELLO</h>"
    // ptag.innerText
    //ptag.textContent
