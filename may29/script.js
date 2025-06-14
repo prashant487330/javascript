@@ -76,9 +76,3 @@ console.log(result);
 // }
 // const result2=cube(10);
 // alert(result2);
-
-function show(name){
-    return prashant;
-}
-const result3=show(prashant);
-alert(result3);
