@@ -9,10 +9,14 @@ console.log(month[Time.getMonth()])
 
 
 // setinterval
+
+let inter
 let hello=()=>{
     let count=0
-    let inter=setInterval(()=>{
-    console.log(count)
+    inter=setInterval(()=>{
+    // console.log(count)
+    let show=document.querySelector("#data")
+    show.innerHTML=count
     count++
     },1000)
 }
@@ -20,3 +24,4 @@ let hello=()=>{
 let hii=()=>{
     clearInterval(inter)
 }
+
